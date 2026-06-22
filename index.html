@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Maayan Shani, Computer Science student focused on Android and mobile app development." />
+  <title>Maayan Shani | Mobile & Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#home" class="logo">Maayan Shani</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <h1>Hi, I’m Maayan<br /></h1>
+        <p class="hero-text">
+          Third-year Computer Science student interested in Android and mobile app development.
+          I enjoy learning through hands-on work: building applications, solving problems,
+          debugging, and seeing ideas become real products.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn primary" href="Resume.pdf" target="_blank" rel="noreferrer">View Resume</a>
+          <a class="btn primary" href="mailto:maayan200374@gmail.com">Contact Me</a>
+        </div>
+        <div class="quick-links" aria-label="Profile links">
+          <a href="https://www.linkedin.com/in/maayan-shani-304269383" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/Maayan-Shani" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="mailto:maayan200374@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-label="Profile summary card">
+        <div class="card-glow"></div>
+        <div class="profile-circle">MS</div>
+        <h2>Mobile-focused developer</h2>
+        <p>Kotlin • Firebase • Android • Swift • Java</p>
+        <div class="stats">
+          <div>
+            <span>90</span>
+            <small>GPA</small>
+          </div>
+          <div>
+            <span>2026</span>
+            <small>B.Sc.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section narrow">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Turning ideas into working products</h2>
+      </div>
+      <p>
+        I’m currently studying Computer Science at Afeka Tel Aviv Academic College of Engineering.
+        My main interest is mobile development, especially Android. I like the process of taking
+        an idea, breaking it into features, implementing the logic, improving the user experience,
+        and gradually turning everything into a complete application.
+      </p>
+      <p>
+        Through academic and personal projects, I have gained hands-on experience with mobile apps,
+        Firebase, app flows, game logic, full-stack development, and interactive applications.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Technologies I work with</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Programming Languages</h3>
+          <p>Kotlin, Swift, Python, Java, C, C#, SQL</p>
+        </article>
+        <article class="skill-card">
+          <h3>Technologies & Frameworks</h3>
+          <p>Android, Firebase, Unity, HTML, JavaScript, PostgreSQL</p>
+        </article>
+        <article class="skill-card">
+          <h3>CS Fundamentals</h3>
+          <p>Object-Oriented Programming, Data Structures & Algorithms, Systems Programming</p>
+        </article>
+        <article class="skill-card">
+          <h3>Tools</h3>
+          <p>Git, GitHub, Linux, Android Studio</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected projects</h2>
+      </div>
+
+      <!-- Replace each project href below with the exact GitHub repository URL if your repo name is different. -->
+      <div class="projects-grid">
+        <article class="project-card featured">
+          <div class="project-top">
+            <h3>BrainShare</h3>
+            <span>Android Application</span>
+          </div>
+          <p>
+            Android app for sharing academic notes, including user authentication,
+            file uploads, ratings, and scalable data handling.
+          </p>
+          <div class="tags">
+            <span>Kotlin</span><span>Firebase</span><span>Android</span>
+          </div>
+          <div class="project-actions">
+            <a class="project-link" href="https://github.com/Maayan-Shani/BrainShare" target="_blank" rel="noreferrer">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>NextStep</h3>
+            <span>Hackathon Career Platform</span>
+          </div>
+          <p>
+            A college hackathon project that helps students prepare for the job market
+            through a personalized roadmap, CV tools, and AI mentor chat.
+          </p>
+          <div class="tags">
+            <span>Base44</span><span>FastAPI</span><span>Firestore</span>
+          </div>
+          <div class="project-actions">
+            <a class="project-link" href="https://github.com/Maayan-Shani/NextStep" target="_blank" rel="noreferrer">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>RoachVsSlippersGame</h3>
+            <span>Android Game</span>
+          </div>
+          <p>
+            Android game with real-time mechanics, sensor-based controls, scoring system,
+            local storage, and interactive gameplay.
+          </p>
+          <div class="tags">
+            <span>Kotlin</span><span>Android</span><span>Sensors</span><span>Game Logic</span>
+          </div>
+          <div class="project-actions">
+            <a class="project-link" href="https://github.com/Maayan-Shani/AndroidGame_RoachVsSlippersGame" target="_blank" rel="noreferrer">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Afeka Travel Planner</h3>
+            <span>Full Stack Web Application</span>
+          </div>
+          <p>
+            Smart travel planning application with AI-based recommendations,
+            real-time maps, and weather data.
+          </p>
+          <div class="tags">
+            <span>Next.js</span><span>Express.js</span><span>MongoDB</span><span>APIs</span>
+          </div>
+          <div class="project-actions">
+            <a class="project-link" href="https://github.com/Maayan-Shani/Afeka-Travel-Planner-2026" target="_blank" rel="noreferrer">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>Unity Games</h3>
+            <span>Gloom & Bloom, PiratesVsZombies</span>
+          </div>
+          <p>
+            2D/3D games including NPC interactions, mission-based progression,
+            gameplay mechanics, and interactive game logic.
+          </p>
+          <div class="tags">
+            <span>Unity</span><span>C#</span><span>2D/3D</span><span>NPC Logic</span>
+          <div class="project-actions">
+  		<a class="project-link" href="https://github.com/Maayan-Shani/UnityGame_Gloom-Bloom" target="_blank" rel="noreferrer">			Gloom & 	Bloom</a>
+  		<a class="project-link" href="https://github.com/Maayan-Shani/UnityGame_PiratesVsZombies" target="_blank" rel="noreferrer">			PiratesVsZombies</a>
+	</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section narrow">
+      <div class="education-card">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>B.Sc. in Computer Science</h2>
+        </div>
+        <p class="muted">Afeka Tel Aviv Academic College of Engineering</p>
+        <p>2023–2026 • GPA: 90</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect</h2>
+      </div>
+      <p>
+        I’m seeking a development role focused on mobile or software development.
+        Feel free to reach out or connect with me.
+      </p>
+      <div class="contact-actions">
+        <a class="btn primary" href="mailto:maayan200374@gmail.com">Email</a>
+        <a class="btn primary" href="https://www.linkedin.com/in/maayan-shani-304269383" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn primary" href="https://github.com/Maayan-Shani" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Maayan Shani. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
